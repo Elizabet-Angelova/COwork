@@ -1,0 +1,61 @@
+.desk-container {
+    background: white;
+    display: inline-block;
+    width: 3em;
+    height: 2.2em;
+    border-radius: 3px;
+    /* opacity: 0.6; */
+    box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.16);
+    margin-right: 0.6em;
+    margin-bottom: 0.6em;
+    font-family: 'Comfortaa', cursive;
+    color: var(--dark);
+    font-weight: 700;
+    text-align: center;
+    border: 1.7px solid rgba(255, 255, 255);
+    
+}
+
+.desk-details:hover {
+    animation: rotate 0.2s ease-in-out forwards;
+
+}
+
+@keyframes rotate {
+    0% {
+        transform: scale(1) ;
+    }
+    100% {
+        transform: scale(1.8) ;
+
+    }
+}
+
+.small {
+    zoom: 0.5;
+    position: absolute;
+    margin-left: -3em;
+}
+
+
+
+.occupied {
+    background: #FFF5B2;
+    box-shadow: 0px 0px 0px 0.3px #FFF5B2;
+
+}
+
+.occupied:hover {
+    cursor: default;
+}
+
+.sth {
+    box-sizing: border-box;
+    padding-top: 0.6em;
+    display: inline-block;
+    width: 3em;
+    height: 2.2em;
+    border-radius: 3px;
+    margin-right: 0.6em;
+    margin-bottom: 0.6em;
+}

@@ -1,0 +1,6 @@
+.create-project-form {
+    width: fit-content;
+    border: 1px solid var(--dark);
+    padding: 1vh 5vh 3vh 1vh;
+    margin: 2vh 0 4vh 0;
+}

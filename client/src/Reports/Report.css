@@ -1,0 +1,24 @@
+.report-container {
+    display: grid;
+    grid-template-columns: 14.2% 14.2% 14.2% 14.2% 14.2% 14.2% 14.2%;
+    text-align: center;
+    grid-template-rows: auto;
+    grid-auto-flow: column;
+    border-bottom: 1px solid var(--dark);
+}
+
+.reports-container {
+    border: 1px solid var(--muave);
+    border-bottom: none;
+}
+
+.report-item {
+    border-right: 1px solid var(--dark);
+    padding: 2vh;
+}
+
+.report-item2 {
+    border-right: 1px solid var(--dark);
+    padding: 2.5vh;
+    font-size: 0.78em;
+}

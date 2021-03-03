@@ -1,0 +1,119 @@
+.date-input {
+    background-color: rgb(63, 15, 63, 0.08);
+    color: var(--dark);
+    border: none;
+    font-size: 1em;
+    padding: 1.5vh;
+    font-family: 'Comfortaa', cursive;
+    margin-top: 0.7vh;
+    box-shadow: -2px 2px 2px rgb(0, 0, 0, 0.18);
+    transition: transform 0.3s ease-in-out;
+    margin-right: 2vw;
+}
+
+.date-input:focus {
+    outline: none;
+    transform: scale(1.05);
+}
+
+.date-input::-webkit-calendar-picker-indicator {
+    opacity: 0.6;
+}
+
+.request-vacation-container {
+    padding: 3vh 0vh 6.5vh 5vh;
+    border-bottom: 2px solid rgb(0, 0, 0, 0.1);
+}
+
+.marked {
+    background-color: rgb(63, 15, 63, 0.1);
+    font-size: 0.8em;
+    padding: 0.9vh;
+    margin: 0 0.5vw 0 2vw;
+}
+
+.single-vacation {
+    border-bottom: 1px solid rgb(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-rows: repeat(auto, 2fr);
+    grid-template-columns: 20.8% 0.1% 39% 0.1% 25% 15%;
+    align-items: center;
+}
+
+.separator {
+    height: 100%;
+    width: 2px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.approved {
+    width: 8vw;
+    text-align: center;
+    display: inline-block;
+    padding: 1.5vh 1vh 1.5vh 1vh;
+    font-size: 0.78em;
+    margin: 0 1vw 0 1vw;
+    background: rgb(0, 128, 0, 0.2);
+}
+
+
+
+.unapproved {
+    width: 8vw;
+    text-align: center;
+    display: inline-block;
+    padding: 1.5vh 1vh 1.5vh 1vh;
+    font-size: 0.78em;
+    margin: 0 1vw 0 1vw;
+    background: rgba(255, 0, 0, 0.2);
+}
+
+.office {
+    font-size: 0.82em;
+    box-sizing: border-box;
+    padding: 1vh;
+    background: rgb(0, 128, 0, 0.2);
+    margin: 0;
+}
+
+
+.home {
+    font-size: 0.82em;
+    box-sizing: border-box;
+    padding: 1vh;
+    background: rgba(0, 102, 128, 0.2);
+    margin: 0;
+}
+
+
+.unapproved1 {
+    margin: 0;
+    font-size: 0.82em;
+    box-sizing: border-box;
+    padding: 1vh;
+    background: rgba(255, 0, 0, 0.2);
+}
+
+.pending {
+    width: 8vw;
+    text-align: center;
+    display: inline-block;
+    padding: 1.5vh 1vh 1.5vh 1vh;
+    font-size: 0.78em;
+    margin: 0 1vw 0 1vw;
+    background: rgba(255, 217, 0, 0.2);
+}
+
+.pending1 {
+    font-size: 0.82em;
+    background: rgba(255, 217, 0, 0.2);
+    box-sizing: border-box;
+    padding: 1vh;
+    margin: 0;
+}
+
+.single-employee-container {
+    display: grid;
+    grid-template-columns: 23% 33% 19% 15% 10%;
+    border-bottom: 1px solid var(--muave);
+}

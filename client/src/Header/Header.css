@@ -1,0 +1,26 @@
+.header-container {
+    background: rgb(63, 15, 63, 0.15);
+    box-sizing: border-box;
+    z-index: 10;
+    grid-row: 1 / span 1;
+    grid-column: 2 / span 2;
+    display: flex;
+    padding-right: 1.5vw;
+}
+
+.log-out {
+    z-index: 4;
+    align-self:center;
+    font-family: 'Comfortaa', cursive;
+    color: var(--dark);
+    letter-spacing: 0.04em;
+    font-size: 0.7em;
+    text-shadow: none;
+    font-weight: bolder;
+    display: inline;
+    margin-left: 1vw;
+}
+
+.log-out:hover {
+    cursor: pointer;
+  }

@@ -1,0 +1,28 @@
+.todays-component-container {
+    width: 100%;
+    height: fit-content;
+    margin-top: 8vh;
+    padding: 2vh 0vh 3vh 0vh;
+    border-top: 0.2vh solid var(--muave);
+
+
+}
+
+.todaysrates-container {
+    width: 90%;
+    height: fit-content;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 3px;
+    margin-left: 0.7vw;
+    padding: 1vw 0 1vw 0;
+}
+
+.small-text {
+    font-size: 0.7em;
+    color: var(--lightest);
+    font-family: 'Comfortaa', cursive;
+    margin-left: 1.6em;
+    margin-bottom: 0.6em;
+
+}

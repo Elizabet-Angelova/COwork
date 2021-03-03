@@ -1,0 +1,13 @@
+.noDesk-container {
+background: transparent;
+ display: inline-block;
+ width: 3em;
+ height: 2.2em;
+ border-radius: 6px;
+ opacity: 0.6;
+ box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.0);
+margin-right: 0.6em;
+margin-bottom: 0.6em;
+border: 1.7px solid transparent;
+
+}

@@ -1,0 +1,14 @@
+.change{
+    background-color: var(--dark);
+    box-sizing: border-box;
+    opacity: 1;
+}
+
+.white{
+    background-color: white;
+    opacity: 0.6;
+}
+
+.white:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,53 @@
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr 4.7fr;
+  grid-template-rows: 6.5vh 12.7fr;
+}
+
+.content {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 2;
+    overflow-y: scroll;
+    padding: 10vh 3vh 3vh 3vh;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #dac9c9;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b3a6a6;
+}
+
+.side-text {
+  font-family: 'Comfortaa', cursive;
+  font-size: 0.8em;
+  color: var(--dark);
+  font-weight: bolder;
+  letter-spacing: 0.06em;
+}
+
+.country-suggestion {
+  padding: 1.7vh;
+  font-size: 0.76em;
+  color: #79536E;
+  border-top: 1px solid rgba(179, 166, 166, 0.2);
+}
+
+.country-suggestion:hover {
+  cursor: pointer;
+  background:rgb(63, 15, 63, 0.06);
+
+}
